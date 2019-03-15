@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_title"/>
+
+    <ImageView
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:src="@mipmap/logo"
+        android:layout_marginTop="75dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/text_second_10"
+        android:textSize="20sp"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:gravity="center|left"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_second_10"
+            android:textSize="14sp"
+            android:text="@string/phone_number"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            />
+        <EditText
+            android:id="@+id/et_user"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/text_second_10"
+            android:textSize="14sp"
+            android:hint="@string/login_user_hint"
+            android:maxLength="11"
+            android:inputType="phone"
+            android:background="@null"/>
+    </LinearLayout>
+
+<include layout="@layout/line_orizontal_dividing_30pading"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:gravity="center|left"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_second_10"
+            android:textSize="14sp"
+            android:text="@string/password"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            />
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/text_second_10"
+            android:textSize="14sp"
+            android:hint="@string/login_password_hint"
+            android:maxLength="12"
+            android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:inputType="textPassword"
+            android:background="@null"/>
+    </LinearLayout>
+    <include layout="@layout/line_orizontal_dividing_30pading"/>
+
+
+
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:gravity="center"
+        >
+
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/rb_type_find_job"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="我是求职者"
+            android:layout_marginRight="5dp"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:text="我是招聘者"
+            android:layout_marginLeft="5dp"
+         />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_16sp"
+        android:text="@string/register"
+        android:background="@drawable/shape_r4_blue"/>
+
+</LinearLayout>

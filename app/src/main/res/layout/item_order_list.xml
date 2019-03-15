@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="12dp"
+    android:layout_marginRight="12dp"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+
+    <!--<android.support.v7.widget.CardView-->
+    <!--android:id="@+id/cv"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="1dp"-->
+    <!--app:cardCornerRadius="13dp"-->
+    <!--app:cardPreventCornerOverlap="false">-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_bg_white_13dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="13dp"
+            android:orientation="horizontal"
+            android:paddingBottom="18dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="13dp">
+
+            <TextView
+                android:id="@+id/tv_job"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="8dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="安卓开发"
+                android:textColor="@color/text_second_10"
+                android:textSize="@dimen/text_size_16sp" />
+
+            <TextView
+                android:id="@+id/tv_salary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="13dp"
+                android:text="10k"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_size_26px" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider_block" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="17dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="17dp"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="毕业院校"
+                android:textColor="@color/text_assistant_99"
+                android:textSize="@dimen/text_size_26px" />
+
+            <TextView
+                android:id="@+id/tv_school"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:drawablePadding="13dp"
+                android:text="南昌大学"
+                android:textColor="@color/text_second_10"
+                android:textSize="@dimen/text_size_26px" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="17dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="17dp"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="学历"
+                android:textColor="@color/text_assistant_99"
+                android:textSize="@dimen/text_size_26px" />
+
+            <TextView
+                android:id="@+id/tv_education"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:drawablePadding="13dp"
+                android:text="本科"
+                android:textColor="@color/text_second_10"
+                android:textSize="@dimen/text_size_26px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="26dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="17dp"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="简介"
+                android:textColor="@color/text_assistant_99"
+                android:textSize="@dimen/text_size_26px" />
+
+            <TextView
+                android:id="@+id/tv_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:drawablePadding="13dp"
+                android:layout_weight="1"
+                android:text="我要找工作啦我要找工作啦我要找工作啦我要找工作啦我要找工作啦我要找工作啦我要找工作啦我要找工作啦我要找工作啦我要找工作啦我要找工作啦我要找工作啦我要找工作啦我要找工作啦我要找工作啦我要找工作啦我要找工作啦我要找工作啦"
+                android:textColor="@color/text_second_10"
+                android:textSize="@dimen/text_size_26px" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="评论"
+            android:layout_marginLeft="12dp"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <LinearLayout
+            android:id="@+id/ll_comments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="13dp"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <!--</android.support.v7.widget.CardView>-->
+
+</LinearLayout>

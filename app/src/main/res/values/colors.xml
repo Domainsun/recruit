@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#129be9</color> <!--主颜色-->
+    <color name="colorPrimaryDark">#1373e9</color> <!--深蓝色-->
+    <!--<color name="colorPrimaryDark">#426bc9</color>-->
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#50000000</color>
+    <color name="red">#f24040</color>
+    <color name="light_green">#002cba7c</color>
+    <color name="green">#2cba7c</color>
+    <!-- 页面大标题、正文 -->
+    <color name="gray_text_main">#2a2a2a</color> <!-- #101010-->
+    <!-- 按钮颜色 -->
+    <color name="button_disable_gray">#cccccc</color>
+    <color name="bg_f5">#f5f5f5</color>
+    <color name="bg_3a">#35383a</color>
+
+    <!-- 列表间隔横线 -->
+    <color name="gray_divider">#eaeaea</color>
+    <color name="divider_block">#f6f6f6</color>
+    <color name="button_pressed_white">#dadada</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="bg_e">#eeeeee</color>
+    <color name="bg_time_bolock">#f0fff8</color>
+    <color name="bg_tips">#ffe6e3</color>
+
+    <!-- 弹窗背景遮罩-->
+    <color name="background_shadow">#8c000000</color>
+
+    <color name="background_assistant1">#edf8ff</color>
+    <color name="background_assistant2">#fff9f1</color>
+    <color name="background_assistant3">#f3f8fa</color>
+    <color name="background_assistant4">#d9fff0d4</color>
+    <color name="background_assistant5">#ababab</color>
+
+
+    <!--字体颜色-->
+    <color name="text_main">#5B5B5B</color> <!--表单值-->
+    <color name="text_assistant_99">#999999</color> <!--表单键-->
+    <color name="text_assistant2">#2cba7c</color> <!--送药状态-->
+    <color name="text_assistant3">#fda431</color> <!--送药状态 时间已超时-->
+    <color name="text_assistant_4">#c0e8ff</color>
+    <color name="text_assistant_5">#61717a</color>
+    <color name="text_assistant_6">#f24040</color>
+    <color name="text_assistant_7">#9ba8b0</color>
+    <color name="text_assistant_8">#8697a0</color>
+    <color name="text_assistant3_b0">#b0b0b0</color> <!--药品搜索栏 字体颜色-->
+    <color name="text_assistant_66">#666666</color> <!--药品搜索栏 字体颜色-->
+    <color name="text_assistant_51">#ee5151</color> <!--药品搜索栏 字体颜色-->
+    <color name="text_second_10">#101010</color> <!--表单键-->
+    <color name="text_second_red">#ef4e3d</color> <!--表单键-->
+    <color name="text_color_bb">#bbbbbb</color> <!--表单键-->
+
+
+
+    <!--tab颜色-->
+    <color name="tab_selected">#129be9</color> <!--表单键-->
+
+    <!-- 普通背景色 -->
+    <color name="gray_background">#f6f6f6</color>
+    <!-- 提示性文字、列表辅助性文字 、弹窗正文 -->
+    <color name="gray_text_assist1">#999999</color>
+
+    <!-- 底部导航栏间隔 -->
+    <color name="gray_divider_nav">#dedede</color>
+
+
+
+    <!-- 输入框提示文字 -->
+    <color name="gray_text_assist2">#bababa</color>
+
+    <!-- 辅助性标题、辅助性文字按钮、收款失败等提示 -->
+    <color name="gray_text_assist0">#666666</color> <!--#666666#-->
+
+    <color name="orange">#f1a53b</color>
+
+</resources>
